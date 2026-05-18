@@ -200,12 +200,12 @@ void Menu::analytics() {
 
 void Menu::saveData() {
     FileIO::saveToFile(warehouse,
-                       "data/products.txt");
+                       "products.txt");
 }
 
 void Menu::run() {
     FileIO::loadFromFile(warehouse,
-                         "data/products.txt");
+                         "products.txt");
 
     int choice;
 
